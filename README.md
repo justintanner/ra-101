@@ -70,7 +70,7 @@ Hi yourgithubusername! You've successfully authenticated, but GitHub does not pr
 First, let's make sure we are in the right folder.
 
 ```bash
-cd ~/ralessons/ra-101
+cd ~/lessons/ra-101
 ```
 
 Then we'll need to:
@@ -86,7 +86,7 @@ git checkout @my-skool-username
 Your terminal prompt should now show:
 
 ```bash
-~/ralessons/ra-101 [@my-skool-username]
+~/lessons/ra-101 [@my-skool-username]
 $ _
 ```
 
