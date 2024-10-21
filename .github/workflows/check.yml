@@ -65,6 +65,7 @@ jobs:
       - name: Register with Rails Academy
         run: |
           GITHUB_USERNAME=${{ github.actor }}
+          GITHUB_ID=${{ github.actor_id }}
           SKOOL_NAME=$(cat ./skool.txt | tr -d '\n' | tr -d '\r' | sed 's/[^a-zA-Z0-9_-]//g')
 
           if [ -z "$SKOOL_NAME" ]; then
@@ -77,6 +78,7 @@ jobs:
           RESPONSE=$(curl -s -X POST \
             -H "Authorization: Bearer ${{ secrets.RA_API_TOKEN }}" \
             -d "github_username=$GITHUB_USERNAME" \
+            -d "github_id=$GITHUB_ID" \
             -d "skool_name=$SKOOL_NAME" \
             -w "%{http_code}" \
             -o /tmp/sync_response_body.txt \
