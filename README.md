@@ -149,7 +149,7 @@ The automatic check will run if your code passes, you'll see:
 
 #### Next Lesson
 
-To start the next lesson run:
+To start the [next lesson](https://github.com/justintanner/ra-102) run:
 
 ```bash
 git clone https://github.com/justintanner/ra-102.git ~/lessons/ra-102
