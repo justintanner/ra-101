@@ -147,6 +147,14 @@ The automatic check will run if your code passes, you'll see:
 
 ### :tada: You're Done! :tada:
 
+#### Next Lesson
+
+To start the next lesson run:
+
+```bash
+git clone https://github.com/justintanner/ra-102.git ~/lessons/ra-102
+```
+
 #### Additional Resources
 
 - :tv: [How to clone, push, and pull with git](https://www.youtube.com/watch?v=yxvqLBHZfXk)
