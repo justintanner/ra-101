@@ -149,17 +149,10 @@ The automatic check will run if your code passes, you'll see:
 
 #### Next Lesson
 
-To start the [next lesson](https://github.com/justintanner/ra-102) run:
-
-```bash
-git clone https://github.com/justintanner/ra-102.git ~/lessons/ra-102
-```
+Once accepted its time to move onto the [next lesson](https://github.com/justintanner/ra-102). 
 
 #### Additional Resources
 
 - :tv: [How to clone, push, and pull with git](https://www.youtube.com/watch?v=yxvqLBHZfXk)
 - :tv: [Bash in 100 Seconds](https://www.youtube.com/watch?v=I4EWvMFj37g)
 - :tv: [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
-
-
-
